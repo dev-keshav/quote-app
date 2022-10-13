@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .App{
+    min-height: 100vh;
+    display: flex;
+    background: #664b92;
+    justify-content: center;
+  
+  }
+  .quote{
+    width: 100%;
+    max-width: 400px;
+    min-height: 180px;
+    padding: 30px;
+    background: #232c46;
+    border-radius: 4px;
+    /* box-shadow: 4px 4px 1px rgba(0, 0, 0, .5); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    opacity: .9;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  .contact-form {
+    width: 100%;
+    /* height: auto; */
+    flex: 50%;
+    /* text-align: center; */
+    /* text-align: start; */
+    /* border-style: groove; */
+    /* padding-left: 125px; */
+    /* box-shadow: 8px 8px 8px 8px rgb(0 0 0 /0.2); */
+    padding-bottom: 70px;
+    padding-top: 50px;
+  }
+  .contact-form-space {
+    text-align: start;
+  }
+  .contact-form h4 {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #6b68ff;
+  }
+  
+  .contact-from-txt {
+    width: 85%;
+    text-align: start;
+    height: 35px;
+    color: #000;
+    border: 0px solid #bcbcbc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #eeeeee;
+  }
+  .contact-from-txt::placeholder {
+    color: #aaa;
+  }
+  .contact-from-txtarea {
+    width: 95%;
+    height: 130px;
+    color: #000;
+    border: 0px solid #bcbcbc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #eeeeee;
+  }
+  .contact-from-txtarea::placeholder {
+    color: #aaa;
+  }
+  .back-btn{
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #53faec;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  .contact-from-btn {
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #21971f;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  .contact-from-btn:hover {
+    background: #72d778;
+    transition: all 0.3s ease;
+  }
+  .hr{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+  }
